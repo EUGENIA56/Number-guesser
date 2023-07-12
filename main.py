@@ -21,7 +21,7 @@ while i<5:
         else:
             print('Your guesss is too low, try again!!')
     i=i+1
-    
+print('Program ended, Thanks for guessing')
 
 abc = random.randint(1, 10)
 print(abc)
