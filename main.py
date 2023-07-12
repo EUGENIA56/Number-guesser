@@ -34,8 +34,10 @@ while i<5:
         break
     else:
         print('Guess is wrong')
-        if user_input > guess_number:
-            print('Your number is too high, try again!!')
+        if user_input > level:
+            print('Your are out of range')
+        elif user_input > guess_number:
+            print('Your guess is too high, try again!!')
         else:
             print('Your guesss is too low, try again!!')
     i=i+1
